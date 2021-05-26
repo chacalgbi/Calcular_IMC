@@ -1,22 +1,22 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import Titulo from './src/components/title/index.js';
-import Main from './src/components/Main/index.js';
+import Titulo from './src/components/title/';
+import Form from './src/components/Form/';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Titulo/>
-      <Main/>
+      <Form/>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
+    alignItems:"center",
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: '#FFDEAD',
+    marginTop:30,
   },
 });
